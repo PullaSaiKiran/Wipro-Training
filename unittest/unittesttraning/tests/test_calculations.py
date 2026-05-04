@@ -1,6 +1,6 @@
 import sys
 import unittest
-from src.calculations import add,sub,mul,div,ne
+from unittesttraning.src.calculations import add,sub,mul,div,ne
 
 class TestCalculation(unittest.TestCase):
     def test_add(self):
