@@ -1,13 +1,13 @@
 # from telnetlib import EC
 from time import sleep
 import time
-from selenium import webdriver
-from selenium.webdriver.edge.service import Service
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
-
-driver = webdriver.Edge(service=Service("../resources/msedgedriver.exe"))
-driver.get("https://www.google.com")
+# from selenium import webdriver
+# from selenium.webdriver.edge.service import Service
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.support.wait import WebDriverWait
+#
+# driver = webdriver.Edge(service=Service("../resources/msedgedriver.exe"))
+# driver.get("https://www.google.com")
 #
 # driver.implicitly_wait(5)
 #
