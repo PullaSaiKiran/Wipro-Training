@@ -1,0 +1,124 @@
+2026-05-08 18:04:03,648 - INFO - ========================================
+2026-05-08 18:04:03,649 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-08 18:04:03,649 - INFO - Starting Behave Test Execution
+2026-05-08 18:04:04,201 - INFO - Timeout fetched : 10
+2026-05-08 18:04:04,210 - INFO - ========================================
+2026-05-08 18:04:04,211 - INFO - STARTING SCENARIO : Successful Signup
+2026-05-08 18:04:04,211 - INFO - Browser fetched : edge
+2026-05-08 18:04:04,211 - INFO - Base URL fetched : https://www.demoblaze.com/
+2026-05-08 18:04:04,211 - INFO - Implicit wait fetched : 5
+2026-05-08 18:04:04,211 - INFO - Headless mode : False
+2026-05-08 18:04:04,211 - INFO - Launching Edge Browser
+2026-05-08 18:04:08,298 - INFO - Browser Opened & Maximized Successfully
+2026-05-08 18:04:08,300 - INFO - Demoblaze URL loaded
+2026-05-08 18:04:08,302 - INFO - Step : Click Sign Up Menu
+2026-05-08 18:04:08,309 - INFO - Clicking Login Menu
+2026-05-08 18:04:08,310 - INFO - Waiting for element clickable : ('link text', 'Sign up')
+2026-05-08 18:04:08,383 - INFO - Element clickable successfully : ('link text', 'Sign up')
+2026-05-08 18:04:08,545 - INFO - Step : Enter Username :usersddsSdjiJmkmaaaaa
+2026-05-08 18:04:08,545 - INFO - Entering Username : usersddsSdjiJmkmaaaaa
+2026-05-08 18:04:08,545 - INFO - Waiting for element visibility : ('id', 'sign-username')
+2026-05-08 18:04:09,146 - INFO - Element visible successfully : ('id', 'sign-username')
+2026-05-08 18:04:09,432 - INFO - Step : Enter Password :pwd5524kdozkaaaaa
+2026-05-08 18:04:09,433 - INFO - Entering Password
+2026-05-08 18:04:09,433 - INFO - Waiting for element visibility : ('id', 'sign-password')
+2026-05-08 18:04:09,499 - INFO - Element visible successfully : ('id', 'sign-password')
+2026-05-08 18:04:09,864 - INFO - Step: Click Sign Up button
+2026-05-08 18:04:09,865 - INFO - Clicking Login Button
+2026-05-08 18:04:09,865 - INFO - Waiting for element clickable : ('xpath', "//button[text()='Sign up']")
+2026-05-08 18:04:09,988 - INFO - Element clickable successfully : ('xpath', "//button[text()='Sign up']")
+2026-05-08 18:04:10,103 - INFO - Step : Verify Successful Signup
+2026-05-08 18:04:10,103 - INFO - Verifying SignUp Alert
+2026-05-08 18:04:10,103 - INFO - Waiting for alert
+2026-05-08 18:04:11,641 - INFO - Alert appeared successfully
+2026-05-08 18:04:11,643 - INFO - Alert Message : Sign up successful.
+2026-05-08 18:04:11,957 - INFO - Screenshot saved at: reports/screenshots/signup_alert_20260508_180411.png
+2026-05-08 18:04:12,406 - INFO - Screenshot saved at: reports/screenshots/successful_signup_20260508_180412.png
+2026-05-08 18:04:12,407 - INFO - Screenshot Captured : reports/screenshots/successful_signup_20260508_180412.png
+2026-05-08 18:04:12,638 - INFO - Scenario Status : Status.passed
+2026-05-08 18:04:12,638 - INFO - SCENARIO PASSED : Successful Signup
+2026-05-08 18:04:16,652 - INFO - Browser Closed Successfully
+2026-05-08 18:04:16,652 - INFO - ========================================
+2026-05-08 18:04:16,740 - INFO - Behave Execution Completed with status code : 0
+2026-05-08 18:04:16,740 - INFO - Generating Allure HTML Report
+2026-05-08 18:04:20,577 - INFO - Allure Report Generated with status code : 0
+2026-05-08 18:04:20,577 - INFO - AUTOMATION EXECUTION COMPLETED
+2026-05-08 18:04:20,577 - INFO - ========================================
+2026-05-10 12:27:15,178 - INFO - Timeout fetched : 10
+2026-05-10 12:27:29,999 - INFO - Timeout fetched : 10
+2026-05-10 12:27:30,028 - INFO - ========================================
+2026-05-10 12:27:30,028 - INFO - STARTING SCENARIO : Successful Signup
+2026-05-10 12:27:30,028 - INFO - Browser fetched : edge
+2026-05-10 12:27:30,029 - INFO - Base URL fetched : https://www.demoblaze.com/
+2026-05-10 12:27:30,029 - INFO - Implicit wait fetched : 5
+2026-05-10 12:27:30,029 - INFO - Headless mode : False
+2026-05-10 12:27:30,029 - INFO - Launching Edge Browser
+2026-05-10 12:27:33,711 - INFO - Browser Opened & Maximized Successfully
+2026-05-10 12:27:33,728 - INFO - Demoblaze URL loaded
+2026-05-10 12:27:33,729 - INFO - Step : Click Sign Up Menu
+2026-05-10 12:27:33,729 - INFO - Clicking Login Menu
+2026-05-10 12:27:33,729 - INFO - Waiting for element clickable : ('link text', 'Sign up')
+2026-05-10 12:27:33,902 - INFO - Element clickable successfully : ('link text', 'Sign up')
+2026-05-10 12:27:34,198 - INFO - Step : Enter Username :usersddsSdjiJmkmaaaaa
+2026-05-10 12:27:34,198 - INFO - Entering Username : usersddsSdjiJmkmaaaaa
+2026-05-10 12:27:34,198 - INFO - Waiting for element visibility : ('id', 'sign-username')
+2026-05-10 12:27:34,856 - INFO - Element visible successfully : ('id', 'sign-username')
+2026-05-10 12:27:35,126 - INFO - Step : Enter Password :pwd5524kdozkaaaaa
+2026-05-10 12:27:35,126 - INFO - Entering Password
+2026-05-10 12:27:35,126 - INFO - Waiting for element visibility : ('id', 'sign-password')
+2026-05-10 12:27:35,168 - INFO - Element visible successfully : ('id', 'sign-password')
+2026-05-10 12:27:35,317 - INFO - Step: Click Sign Up button
+2026-05-10 12:27:35,317 - INFO - Clicking Login Button
+2026-05-10 12:27:35,317 - INFO - Waiting for element clickable : ('xpath', "//button[text()='Sign up']")
+2026-05-10 12:27:35,361 - INFO - Element clickable successfully : ('xpath', "//button[text()='Sign up']")
+2026-05-10 12:27:35,478 - INFO - Step : Verify Successful Signup
+2026-05-10 12:27:35,478 - INFO - Verifying SignUp Alert
+2026-05-10 12:27:35,478 - INFO - Waiting for alert
+2026-05-10 12:27:37,215 - INFO - Alert appeared successfully
+2026-05-10 12:27:37,217 - INFO - Alert Message : This user already exist.
+2026-05-10 12:27:37,505 - INFO - Screenshot saved at: reports/screenshots/signup_alert_20260510_122737.png
+2026-05-10 12:27:37,795 - INFO - Screenshot saved at: reports/screenshots/successful_signup_20260510_122737.png
+2026-05-10 12:27:37,796 - INFO - Screenshot Captured : reports/screenshots/successful_signup_20260510_122737.png
+2026-05-10 12:27:37,964 - INFO - Scenario Status : Status.passed
+2026-05-10 12:27:37,964 - INFO - SCENARIO PASSED : Successful Signup
+2026-05-10 12:27:40,628 - INFO - Browser Closed Successfully
+2026-05-10 12:27:40,628 - INFO - ========================================
+2026-05-10 12:27:44,943 - INFO - Timeout fetched : 10
+2026-05-10 12:29:24,728 - INFO - Timeout fetched : 10
+2026-05-10 12:29:24,736 - INFO - ========================================
+2026-05-10 12:29:24,736 - INFO - STARTING SCENARIO : Successful Signup
+2026-05-10 12:29:24,736 - INFO - Browser fetched : edge
+2026-05-10 12:29:24,736 - INFO - Base URL fetched : https://www.demoblaze.com/
+2026-05-10 12:29:24,736 - INFO - Implicit wait fetched : 5
+2026-05-10 12:29:24,736 - INFO - Headless mode : False
+2026-05-10 12:29:24,736 - INFO - Launching Edge Browser
+2026-05-10 12:29:27,635 - INFO - Browser Opened & Maximized Successfully
+2026-05-10 12:29:27,643 - INFO - Demoblaze URL loaded
+2026-05-10 12:29:27,644 - INFO - Step : Click Sign Up Menu
+2026-05-10 12:29:27,645 - INFO - Clicking Login Menu
+2026-05-10 12:29:27,645 - INFO - Waiting for element clickable : ('link text', 'Sign up')
+2026-05-10 12:29:27,700 - INFO - Element clickable successfully : ('link text', 'Sign up')
+2026-05-10 12:29:27,838 - INFO - Step : Enter Username :usersddsSdjiJmkmaaaaa
+2026-05-10 12:29:27,838 - INFO - Entering Username : usersddsSdjiJmkmaaaaa
+2026-05-10 12:29:27,839 - INFO - Waiting for element visibility : ('id', 'sign-username')
+2026-05-10 12:29:28,407 - INFO - Element visible successfully : ('id', 'sign-username')
+2026-05-10 12:29:28,680 - INFO - Step : Enter Password :pwd5524kdozkaaaaa
+2026-05-10 12:29:28,680 - INFO - Entering Password
+2026-05-10 12:29:28,680 - INFO - Waiting for element visibility : ('id', 'sign-password')
+2026-05-10 12:29:28,714 - INFO - Element visible successfully : ('id', 'sign-password')
+2026-05-10 12:29:28,855 - INFO - Step: Click Sign Up button
+2026-05-10 12:29:28,855 - INFO - Clicking Login Button
+2026-05-10 12:29:28,855 - INFO - Waiting for element clickable : ('xpath', "//button[text()='Sign up']")
+2026-05-10 12:29:28,888 - INFO - Element clickable successfully : ('xpath', "//button[text()='Sign up']")
+2026-05-10 12:29:28,968 - INFO - Step : Verify Successful Signup
+2026-05-10 12:29:28,968 - INFO - Verifying SignUp Alert
+2026-05-10 12:29:28,968 - INFO - Waiting for alert
+2026-05-10 12:29:29,975 - INFO - Alert appeared successfully
+2026-05-10 12:29:29,976 - INFO - Alert Message : This user already exist.
+2026-05-10 12:29:30,174 - INFO - Screenshot saved at: reports/screenshots/signup_alert_20260510_122929.png
+2026-05-10 12:29:30,525 - INFO - Screenshot saved at: reports/screenshots/successful_signup_20260510_122930.png
+2026-05-10 12:29:30,525 - INFO - Screenshot Captured : reports/screenshots/successful_signup_20260510_122930.png
+2026-05-10 12:29:31,589 - INFO - Scenario Status : Status.passed
+2026-05-10 12:29:31,589 - INFO - SCENARIO PASSED : Successful Signup
+2026-05-10 12:29:36,662 - INFO - Browser Closed Successfully
+2026-05-10 12:29:36,663 - INFO - ========================================
