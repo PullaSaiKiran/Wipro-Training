@@ -1,0 +1,10 @@
+robotframework
+robotframework-seleniumlibrary
+robotframework-browser
+robotframework-jsonlibrary
+robotframework-datadriver
+robotframework-browser
+
+selenium
+behave
+allure-behave
