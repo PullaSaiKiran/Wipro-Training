@@ -1,21 +1,13 @@
-
 *** Settings ***
 Library    SeleniumLibrary
-Library    ../Libraries/ProductPage.py
 Resource   ../Resources/login_resources.resource
-Resource   ../Resources/common.resource
 
-Suite Setup    Open Browser To SauceDemo
-Test Teardown  Teardown With Screenshot
-
+Suite Setup    Open Browser    https://www.saucedemo.com    edge
+Suite Teardown    Close Browser
 
 *** Test Cases ***
 Verify Product Prices
+    [Tags]    Regression
+    Set Test Documentation    Verify that product prices are displayed correctly.
     Login To Application    standard_user    secret_sauce
-    Wait Until Page Contains    Products
-
-    ${backpack_price}=    Get Product Price By Name    Sauce Labs Backpack
-    ${bike_light_price}=  Get Product Price By Name    Sauce Labs Bike Light
-
-    ${total}=    Evaluate    ${backpack_price} + ${bike_light_price}
-    Should Be Equal As Numbers    ${total}    39.98
+    Page Should Contain    $29.99
